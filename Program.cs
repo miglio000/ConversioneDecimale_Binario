@@ -18,7 +18,8 @@ namespace ConversioneDecimale_Binario
                 binario = Convert.ToString(resto) + binario;
 
             }
-            Console.WriteLine($"Il numero")
+            Console.WriteLine($"Il numero in binario è {binario}");
+
 
 
 
