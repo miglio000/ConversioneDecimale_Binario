@@ -10,9 +10,10 @@ namespace ConversioneDecimale_Binario
 
             int num, resto;
             Console.WriteLine("Inserire il numero da convertire:");
-            num = Convert.ToInt32(Console.ReadLine));
+            num = int.Parse(Console.ReadLine));
             string binario = "";
-            while (num 0){
+            while (num > 0)
+                    {
                 resto = num % 2;
                 num /= 2;
                 binario = Convert.ToString(resto) + binario;
@@ -23,8 +24,8 @@ namespace ConversioneDecimale_Binario
 
 
 
-            
-            
+
+
         }
     }
 }
